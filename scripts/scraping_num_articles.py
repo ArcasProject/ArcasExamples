@@ -1,3 +1,14 @@
+"""
+This script is an example of how to use arcas to collect a number of 
+metadata of articles on specific topic. In this example the five apis, Ieee,
+Plos, Nature, arXiv and Springer and used. 
+
+The keywords used to search articles are "sustainable software", 
+"research software" and we are asking for a maximum number of 30 articles
+from each api. 
+
+In each search 10 articles are asked. 
+"""
 import arcas
 import pandas as pd
 
